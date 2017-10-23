@@ -8,8 +8,3 @@ lastname varchar(50) not null,
 noOftyres int not null);
 
 go
-
-insert into Orders(firstname, lastname,noOfTyres)
-values('john','smith',2);
-
-go
