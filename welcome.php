@@ -28,7 +28,7 @@
 	else
 	{
 		$sql = "INSERT INTO Orders (firstname, lastname, noOftyres)
-		VALUES ('$firstname', '$lastname', '$tyre_no)";
+		VALUES ('$firstname', '$lastname', '$tyre_no')";
 
 		if ($conn->query($sql) === TRUE)
 		{
