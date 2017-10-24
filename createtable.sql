@@ -10,7 +10,7 @@ noOftyres int not null);
 go
 
 if not exists (select * from syscolumns
-  where id=object_id('Orders') and name='amount')
+  where id=object_id('Orders') and name=('amount')
     alter table Orders add amount numeric null;
 
 go
