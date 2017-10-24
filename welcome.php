@@ -9,7 +9,7 @@
 	$lastname = $_POST["lastname"];
 	$tyre_no = $_POST["tyres"];
 
-    echo $firstname." ".$lastname'<br/>';
+    echo $firstname." ".$lastname.'<br/>';
     echo "total amount due is: ".($tyre_no* 110).'<br/>';
 	
     $servername = "localhost";
